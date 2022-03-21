@@ -43,7 +43,7 @@ export default function Home() {
         </div>
         <div className='profileWrapper'>
           <div className='title'>Profile</div>
-          <div className='cont'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+          <div className='cont'>A passionate, hardworking, and highly organised graphic designer, who always aims to achieve the best results with a practical "get the things done" approach. </div>
         </div>
       </div>
       <div className='right'>
@@ -53,24 +53,24 @@ export default function Home() {
             <ul>
               <li>
                 <div className='liWrap'>
-                  <div className='liTitle'>Role</div>
+                  <div className='liTitle'>Front-End developer</div>
                   <div className='nameDate'>
-                    <div className='name'>Work Title</div> 
+                    <div className='name'>Microsoft</div> 
                     <div className='line'>|</div>
-                    <div className='date'>Year-Year</div>
+                    <div className='date'>2022-2024</div>
                   </div>
-                  <div className='cont'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                  <div className='cont'>Awarded for Best employee of the year 2023. Quitted because of career change.</div>
                 </div>
               </li>
               <li>
                 <div className='liWrap'>
-                  <div className='liTitle'>Role</div>
+                  <div className='liTitle'>Graphic designer</div>
                   <div className='nameDate'>
-                    <div className='name'>Work Title</div> 
+                    <div className='name'>Facebook</div> 
                     <div className='line'>|</div>
-                    <div className='date'>Year-Year</div>
+                    <div className='date'>since 2024</div>
                   </div>
-                  <div className='cont'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                  <div className='cont'>Building Horizon Worlds project with the best team in Facebook.</div>
                 </div>
               </li>
             </ul>
@@ -82,35 +82,35 @@ export default function Home() {
             <ul>
               <li>
                 <div className='liWrap'>
-                  <div className='liTitle'>Degree</div>
+                  <div className='liTitle'>High school education</div>
                   <div className='nameDate'>
-                    <div className='name'>University Name</div> 
+                    <div className='name'>GAA first school</div> 
                     <div className='line'>|</div>
-                    <div className='date'>Year-Year</div>
+                    <div className='date'>2008-2020</div>
                   </div>
-                  <div className='cont'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                  <div className='cont'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                 </div>
               </li>
               <li>
                 <div className='liWrap'>
-                  <div className='liTitle'>Degree</div>
+                  <div className='liTitle'>Bachelor degree in software engineering</div>
                   <div className='nameDate'>
-                    <div className='name'>University Name</div> 
+                    <div className='name'>NUM</div> 
                     <div className='line'>|</div>
-                    <div className='date'>Year-Year</div>
+                    <div className='date'>2020-2023</div>
                   </div>
-                  <div className='cont'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                  <div className='cont'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                 </div>
               </li>
               <li>
                 <div className='liWrap'>
-                  <div className='liTitle'>Degree</div>
+                  <div className='liTitle'>Master degree in computer science</div>
                   <div className='nameDate'>
-                    <div className='name'>University Name</div> 
+                    <div className='name'>MIT</div> 
                     <div className='line'>|</div>
-                    <div className='date'>Year-Year</div>
+                    <div className='date'>2023-2026</div>
                   </div>
-                  <div className='cont'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                  <div className='cont'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                 </div>
               </li>
             </ul>
