@@ -6,7 +6,7 @@ const nextConfig = {
 module.exports = {
   images: {
     loader: 'akamai',
-    path: '../public/Jiji.webp',
+    path: '../public/Jiji.webp'
   },
   env: {
     PUBLIC_URL: "https://webProgramming",

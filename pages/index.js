@@ -2,7 +2,8 @@ import Image from 'next/image'
 import { MdEmail } from 'react-icons/md';
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { AiFillHome } from 'react-icons/ai';
-import mypic from '../public/jiji.webp';
+import mypic from '../public/Jiji.webp';
+import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
