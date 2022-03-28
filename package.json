@@ -3,6 +3,7 @@
   "name": "web_lab3",
   "version": "0.1.0",
   "private": true,
+  "public": true,
   "scripts": {
     "replaceFilePaths": "node replacer.js",
     "dev": "next dev",
