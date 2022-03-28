@@ -4,13 +4,16 @@ import styles from '../styles/Home.module.css'
 import { MdEmail } from 'react-icons/md';
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { AiFillHome } from 'react-icons/ai';
+import mypic from '../public/jiji.webp';
 
 export default function Home() {
   return (
     <div className='wrapper'>
       <div className='left'>
         <div className='picture'>
-          <img src="jiji.webp"></img>
+          <Image src={mypic}
+          alt="jiji"
+          />
         </div>
         <div className='nameRole'>
           <div className='name'>Oyungerel Jargalsaikhan</div>
@@ -43,7 +46,7 @@ export default function Home() {
         </div>
         <div className='profileWrapper'>
           <div className='title'>Profile</div>
-          <div className='cont'>A passionate, hardworking, and highly organised graphic designer, who always aims to achieve the best results with a practical "get the things done" approach. </div>
+          <div className='cont'>A passionate, hardworking, and highly organised graphic designer, who always aims to achieve the best results with a practical get the things done approach. </div>
         </div>
       </div>
       <div className='right'>
