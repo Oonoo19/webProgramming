@@ -5,7 +5,7 @@ const nextConfig = {
 
 module.exports = {
   env: {
-    PUBLIC_URL: "https://webProgramming",
+    PUBLIC_URL: "https://webProgramming.github.io",
     assetPrefix: './'
   }
 };

@@ -10,7 +10,7 @@ export default function Home() {
       <div className='left'>
         <div className='picture'>
           <Image src={mypic}
-          alt="jiji"
+          alt="jiji profile"
           />
         </div>
         <div className='nameRole'>
