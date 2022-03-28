@@ -9,7 +9,7 @@ module.exports = {
     path: '../public/Jiji.webp',
   },
   env: {
-    PUBLIC_URL: "https://webProgramming.github.io",
+    PUBLIC_URL: "https://webProgramming",
     assetPrefix: './'
   }
 };
