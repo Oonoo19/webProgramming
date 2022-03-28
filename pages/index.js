@@ -102,7 +102,7 @@ export default function Home() {
                     <div className='line'>|</div>
                     <div className='date'>2020-2023</div>
                   </div>
-                  <div className='cont'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                  <div className='cont'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedo eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                 </div>
               </li>
               <li>
