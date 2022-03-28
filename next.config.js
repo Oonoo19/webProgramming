@@ -4,6 +4,7 @@ const nextConfig = {
 }
 
 module.exports = {
+  assetPrefix: '/wallisconsultancy/',
   images: {
     loader: 'akamai',
     path: '../public/Jiji.webp'
