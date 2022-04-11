@@ -1,16 +1,22 @@
-import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import { MdEmail } from 'react-icons/md';
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { AiFillHome } from 'react-icons/ai';
+import mypic from '../public/Jiji.webp';
+import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
     <div className='wrapper'>
       <div className='left'>
         <div className='picture'>
+<<<<<<< HEAD
           
+=======
+          <Image src={mypic}
+          alt="jiji profile"
+          />
+>>>>>>> 10efab44194198fad1482ba3a7da1c6fbdc0ebf4
         </div>
         <div className='nameRole'>
           <div className='name'>Oyungerel Jargalsaikhan</div>
@@ -43,7 +49,7 @@ export default function Home() {
         </div>
         <div className='profileWrapper'>
           <div className='title'>Profile</div>
-          <div className='cont'>A passionate, hardworking, and highly organised graphic designer, who always aims to achieve the best results with a practical "get the things done" approach. </div>
+          <div className='cont'>A passionate, hardworking, and highly organised graphic designer, who always aims to achieve the best results with a practical get the things done approach. </div>
         </div>
       </div>
       <div className='right'>
@@ -99,7 +105,7 @@ export default function Home() {
                     <div className='line'>|</div>
                     <div className='date'>2020-2023</div>
                   </div>
-                  <div className='cont'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                  <div className='cont'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedo eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                 </div>
               </li>
               <li>
