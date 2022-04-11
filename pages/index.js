@@ -10,7 +10,7 @@ export default function Home() {
     <div className='wrapper'>
       <div className='left'>
         <div className='picture'>
-          <img src="jiji.webp"></img>
+          
         </div>
         <div className='nameRole'>
           <div className='name'>Oyungerel Jargalsaikhan</div>
