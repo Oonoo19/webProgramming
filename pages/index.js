@@ -7,151 +7,144 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className='wrapper'>
-      <div className='left'>
-        <div className='picture'>
-<<<<<<< HEAD
-          
-=======
-          <Image src={mypic}
-          alt="jiji profile"
-          />
->>>>>>> 10efab44194198fad1482ba3a7da1c6fbdc0ebf4
+    <div className={styles.wrapper}>
+      <div className={styles.left}>
+        <div className={styles.picture}>
         </div>
-        <div className='nameRole'>
-          <div className='name'>Oyungerel Jargalsaikhan</div>
-          <div className='role'>Role</div>
+        <div className={styles.nameRole}>
+          <div className={styles.name}>Oyungerel Jargalsaikhan</div>
+          <div className={styles.role}>Role</div>
         </div>
-        <div className='contactWrapper'>
-          <div className='title'>Contact</div>
-          <div className='contact'>
+        <div className={styles.contactWrapper}>
+          <div className={styles.title}>Contact</div>
+          <div className={styles.contact}>
             <ul>
              <li>
-               <div className='liWrap'>
-                 <div className='icon'><BsFillTelephoneFill /></div>
-                 <div className='text'>+976 94141984</div>
+               <div className={styles.liWrap}>
+                 <div className={styles.icon}><BsFillTelephoneFill /></div>
+                 <div className={styles.text}>+976 94141984</div>
                </div>
              </li>
              <li>
-               <div className='liWrap'>
-                 <div className='icon'><MdEmail /></div>
-                 <div className='text'>lizzbetgrant1009@gmail.com</div>
+               <div className={styles.liWrap}>
+                 <div className={styles.icon}><MdEmail /></div>
+                 <div className={styles.text}>lizzbetgrant1009@gmail.com</div>
                </div>
              </li>
              <li>
-               <div className='liWrap'>
-                 <div className='icon'><AiFillHome /></div>
-                 <div className='text'>New York, Manhattan, 14th street</div>
+               <div className={styles.liWrap}>
+                 <div className={styles.icon}><AiFillHome /></div>
+                 <div className={styles.text}>New York, Manhattan, 14th street</div>
                </div>
              </li>
            </ul>
           </div>
         </div>
-        <div className='profileWrapper'>
-          <div className='title'>Profile</div>
-          <div className='cont'>A passionate, hardworking, and highly organised graphic designer, who always aims to achieve the best results with a practical get the things done approach. </div>
+        <div className={styles.profileWrapper}>
+          <div className={styles.title}>Profile</div>
+          <div className={styles.cont}>A passionate, hardworking, and highly organised graphic designer, who always aims to achieve the best results with a practical get the things done approach. </div>
         </div>
       </div>
-      <div className='right'>
-        <div className='expWrapper'>
-          <div className='title'>Work Experience</div>
-          <div className='experience'>
+      <div className={styles.right}>
+        <div className={styles.expWrapper}>
+          <div className={styles.title}>Work Experience</div>
+          <div className={styles.experience}>
             <ul>
               <li>
-                <div className='liWrap'>
-                  <div className='liTitle'>Front-End developer</div>
-                  <div className='nameDate'>
-                    <div className='name'>Microsoft</div> 
-                    <div className='line'>|</div>
-                    <div className='date'>2022-2024</div>
+                <div className={styles.liWrap}>
+                  <div className={styles.liTitle}>Front-End developer</div>
+                  <div className={styles.nameDate}>
+                    <div className={styles.name}>Microsoft</div> 
+                    <div className={styles.line}>|</div>
+                    <div className={styles.date}>2022-2024</div>
                   </div>
-                  <div className='cont'>Awarded for Best employee of the year 2023. Quitted because of career change.</div>
+                  <div className={styles.cont}>Awarded for Best employee of the year 2023. Quitted because of career change.</div>
                 </div>
               </li>
               <li>
-                <div className='liWrap'>
-                  <div className='liTitle'>Graphic designer</div>
-                  <div className='nameDate'>
-                    <div className='name'>Facebook</div> 
-                    <div className='line'>|</div>
-                    <div className='date'>since 2024</div>
+                <div className={styles.liWrap}>
+                  <div className={styles.liTitle}>Graphic designer</div>
+                  <div className={styles.nameDate}>
+                    <div className={styles.name}>Facebook</div> 
+                    <div className={styles.line}>|</div>
+                    <div className={styles.date}>since 2024</div>
                   </div>
-                  <div className='cont'>Building Horizon Worlds project with the best team in Facebook.</div>
+                  <div className={styles.cont}>Building Horizon Worlds project with the best team in Facebook.</div>
                 </div>
               </li>
             </ul>
           </div>
         </div>
-        <div className='eduWrapper'>
-          <div className='title'>Education</div>
-          <div className='education'>
+        <div className={styles.eduWrapper}>
+          <div className={styles.title}>Education</div>
+          <div className={styles.education}>
             <ul>
               <li>
-                <div className='liWrap'>
-                  <div className='liTitle'>High school education</div>
-                  <div className='nameDate'>
-                    <div className='name'>GAA first school</div> 
-                    <div className='line'>|</div>
-                    <div className='date'>2008-2020</div>
+                <div className={styles.liWrap}>
+                  <div className={styles.liTitle}>High school education</div>
+                  <div className={styles.nameDate}>
+                    <div className={styles.name}>GAA first school</div> 
+                    <div className={styles.line}>|</div>
+                    <div className={styles.date}>2008-2020</div>
                   </div>
-                  <div className='cont'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                  <div className={styles.cont}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                 </div>
               </li>
               <li>
-                <div className='liWrap'>
-                  <div className='liTitle'>Bachelor degree in software engineering</div>
-                  <div className='nameDate'>
-                    <div className='name'>NUM</div> 
-                    <div className='line'>|</div>
-                    <div className='date'>2020-2023</div>
+                <div className={styles.liWrap}>
+                  <div className={styles.liTitle}>Bachelor degree in software engineering</div>
+                  <div className={styles.nameDate}>
+                    <div className={styles.name}>NUM</div> 
+                    <div className={styles.line}>|</div>
+                    <div className={styles.date}>2020-2023</div>
                   </div>
-                  <div className='cont'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedo eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                  <div className={styles.cont}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedo eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                 </div>
               </li>
               <li>
-                <div className='liWrap'>
-                  <div className='liTitle'>Master degree in computer science</div>
-                  <div className='nameDate'>
-                    <div className='name'>MIT</div> 
-                    <div className='line'>|</div>
-                    <div className='date'>2023-2026</div>
+                <div className={styles.liWrap}>
+                  <div className={styles.liTitle}>Master degree in computer science</div>
+                  <div className={styles.nameDate}>
+                    <div className={styles.name}>MIT</div> 
+                    <div className={styles.line}>|</div>
+                    <div className={styles.date}>2023-2026</div>
                   </div>
-                  <div className='cont'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                  <div className={styles.cont}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                 </div>
               </li>
             </ul>
           </div>
         </div>
-        <div className='lanWrapper'>
-          <div className='title'>Languages</div>
-          <div className='languages'>
+        <div className={styles.lanWrapper}>
+          <div className={styles.title}>Languages</div>
+          <div className={styles.languages}>
             <ul>
               <li>
-                <div className='lanWrap'>
-                  <div className='lan'>Mongolian</div>
-                  <div className='line'>-</div>
-                  <div className='lanLevel'>Native</div>
+                <div className={styles.lanWrap}>
+                  <div className={styles.lan}>Mongolian</div>
+                  <div className={styles.line}>-</div>
+                  <div className={styles.lanLevel}>Native</div>
                 </div>
               </li>
               <li>
-                <div className='lanWrap'>
-                  <div className='lan'>English</div>
-                  <div className='line'>-</div>
-                  <div className='lanLevel'>Advanced</div>
+                <div className={styles.lanWrap}>
+                  <div className={styles.lan}>English</div>
+                  <div className={styles.line}>-</div>
+                  <div className={styles.lanLevel}>Advanced</div>
                 </div>
               </li>
               <li>
-                <div className='lanWrap'>
-                  <div className='lan'>Japanese</div>
-                  <div className='line'>-</div>
-                  <div className='lanLevel'>Basic</div>
+                <div className={styles.lanWrap}>
+                  <div className={styles.lan}>Japanese</div>
+                  <div className={styles.line}>-</div>
+                  <div className={styles.lanLevel}>Basic</div>
                 </div>
               </li>
               <li>
-                <div className='lanWrap'>
-                  <div className='lan'>French</div>
-                  <div className='line'>-</div>
-                  <div className='lanLevel'>Basic</div>
+                <div className={styles.lanWrap}>
+                  <div className={styles.lan}>French</div>
+                  <div className={styles.line}>-</div>
+                  <div className={styles.lanLevel}>Basic</div>
                 </div>
               </li>
             </ul>
